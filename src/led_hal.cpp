@@ -13,7 +13,7 @@
 
 //-------------------------------------
 
- void led_hal::begin(uint8 pinValue, uint8 logicOnValue){
+ void led_hal::begin(uint8_t pinValue, uint8_t logicOnValue){
 
 
      pinMode(pinValue, OUTPUT);
