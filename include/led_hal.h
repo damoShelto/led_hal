@@ -21,7 +21,7 @@
 
 public:
 
-        void begin(uint8 pinValue, uint8 logicOnValue);
+        void begin(uint8_t pinValue, uint8_t logicOnValue);
 
         void ledOn(void);
 
@@ -32,8 +32,8 @@ public:
 private:
 
 
-    uint8 _pin;
-    uint8 _logicOn;
+    uint8_t _pin;
+    uint8_t _logicOn;
 
 
  }; 
